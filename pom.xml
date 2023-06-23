@@ -3,8 +3,9 @@
   <groupId>LoginUI</groupId>
   <artifactId>LoginUI</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- 
-  <build><finalName>LoginUI</finalName>
+  <packaging>war</packaging>
+  <build>
+	<finalName>LoginUI</finalName>
   <pluginManagement>
        <plugins>
          <plugin>
@@ -38,5 +39,4 @@
      </plugins>
   </pluginManagement>
 </build>
- <packaging>war</packaging>
 </project>
